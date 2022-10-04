@@ -1,0 +1,22 @@
+/* My Styles */
+
+body {
+    background-color: rgb(70, 21, 131);
+}
+
+h1{
+    color: blanchedalmond;
+}
+
+img{
+    max-width: 50%;
+}
+
+p{
+    color: aliceblue;
+    max-width: 50%;
+}
+
+a{
+    color: rgb(15, 151, 192);
+}
