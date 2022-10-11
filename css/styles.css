@@ -1,4 +1,4 @@
-/* My Styles */
+/* My Styles
 
 body {
     background-color: rgb(70, 21, 131);
@@ -20,4 +20,71 @@ p{
 
 a{
     color: rgb(15, 151, 192);
+} */
+
+:root {
+    --content-width: 30ch;
+  }
+  
+  body {
+    background-color: rgb(70, 21, 131);
+    margin: 0;
 }
+  
+  figure {
+    margin: 0;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .header {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2rem;
+    max-width: calc(var(--content-width) - 4rem);
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h2{
+    color: blanchedalmond;
+  }
+  .card {
+    width: clamp(50ch, 75%, var(--content-width));
+    margin: 8rem;
+    border: 0.5rem solid aliceblue;
+  }
+  
+  .card figcaption {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem 2rem;
+  }
+  
+  .card h2 {
+    margin-block-end: 0;
+  }
+
+  a{
+    text-decoration: none;
+    color: rgb(15, 151, 192);
+}
+  
+  .card button {
+    align-self: flex-end;
+    padding: 0.75rem 1rem;
+    border: 0.25rem solid black;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  p{
+    color: aliceblue;
+  }
